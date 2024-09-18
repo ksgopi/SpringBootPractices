@@ -13,12 +13,7 @@ public class MethameticController {
 	@Autowired
 	private  MethameticCalculation methField;
 	
-	/*
-	 * @Autowired public MethameticController(MethameticCalculation meth) {
-	 * this.meth = meth;
-	 * 
-	 * }
-	 */
+	
 	@Autowired
 	public void setCalculator(MethameticCalculation maths) {
 		this.meth=maths;
